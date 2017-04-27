@@ -11,13 +11,16 @@ $(document).ready(function(){
     compare(age); //acquire from backend
     var result = compare(userAge);
     if(result === true) {
-      $(".content").show(); //show our content to user
+
+      $("#ourButton").click(function() {
+        $("#content").show(); //show our content to user
+      });
+
       } else {
         alert("Sorry, You May Not Enter.");
       };
 
 
-    console.log(result);
     event.preventDefault();
 
   });
