@@ -17,7 +17,7 @@ $(document).ready(function(){
       });
 
       } else {
-        alert("Sorry, You May Not Enter.");
+        alert("Sorry, you are too young to vote.");
       };
 
 
