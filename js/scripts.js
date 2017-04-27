@@ -12,7 +12,7 @@ $(document).ready(function(){
     var result = compare(userAge);
     if(result === true) {
 
-      $("#ourButton").click(function() {
+      $("#age").keypress(function() {
         $("#content").show(); //show our content to user
       });
 
