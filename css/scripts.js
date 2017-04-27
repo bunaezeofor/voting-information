@@ -1,5 +1,22 @@
+/*user interface*/
+
+
 $(document).ready(function(){
-  $("#ourButton").submit(function(event){
+  $("#age-form").submit(function(event){
     var
   })
-})
+
+
+
+
+  })
+
+/*business end */
+
+function compare(age) {
+  if(age >= 18) {
+    return true;
+  }else{
+    return false;
+  };
+};
